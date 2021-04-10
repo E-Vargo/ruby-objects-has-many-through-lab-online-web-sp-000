@@ -21,7 +21,7 @@ Appointment.new(date, patient, self)
 end
 
 def patients
-
+appointments.map {|a| a.patient}
 end
 
 end
