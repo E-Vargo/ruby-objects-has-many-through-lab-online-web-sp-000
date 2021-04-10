@@ -7,7 +7,9 @@ attr_accessor :title, :genre, :artist
 def initialize(title)
 end
 
-
+def self.all
+  @@all
+end
 
 
 
