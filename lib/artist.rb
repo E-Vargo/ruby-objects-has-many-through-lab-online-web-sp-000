@@ -13,7 +13,7 @@ def self.all
   @@all
 end
 
-def new_song(name, genre)
+def new_song(name, self, genre)
   name  = Song.new
   name.artist = self
 end
