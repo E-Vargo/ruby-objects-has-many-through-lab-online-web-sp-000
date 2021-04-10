@@ -13,11 +13,10 @@ def self.all
   @@all
 end
 
-def new_song(name, self, genre)
+def new_song(name, artist, genre)
   name  = Song.new
   name.artist = self
 end
-
 def songs
   Song.all.select {|song| song.artist == self}
 end
