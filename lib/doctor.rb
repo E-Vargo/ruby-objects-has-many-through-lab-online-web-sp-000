@@ -13,7 +13,7 @@ def self.all
 end
 
 def appointments
-appointment.all.select {|a| appointment.doctor == self }
+Appointment.all.select {|a| appointment.doctor == self }
 end
 
 def new_appointment(date, patient)
