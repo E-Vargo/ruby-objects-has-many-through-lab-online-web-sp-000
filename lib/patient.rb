@@ -23,6 +23,7 @@ end
 
 def doctors
   appointments.map {|a| a.doctor}
+end
 
 
 
